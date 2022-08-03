@@ -1,0 +1,12 @@
+package zoo_keeper;
+
+public class ZooKeeperTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Gorilla harambe = new Gorilla(100);
+		harambe.displayEnergy();
+	}
+
+}

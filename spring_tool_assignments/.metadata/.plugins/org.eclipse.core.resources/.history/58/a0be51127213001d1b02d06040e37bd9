@@ -1,0 +1,14 @@
+package zoo_keeper;
+
+public class Gorilla extends Mammal {
+
+//	Constructor
+	public Gorilla(int energyLevel) {
+		super(energyLevel);
+	}
+	
+//	Methods
+		public void throwSomething() {
+			setEnergyLevel(getEnergyLevel() - 5);
+		}
+}

@@ -1,0 +1,20 @@
+package zoo_keeper;
+
+public class Mammal {
+
+//	Member Attributes
+	public int energyLevel;
+	
+//	Constructor
+	public Mammal() {
+		this.energyLevel = 100;
+	}
+
+//	Methods
+	public int displayEnergy() {
+		this.energyLevel = 100;
+		System.out.println(energyLevel);
+		return energyLevel;
+	}
+	
+}
