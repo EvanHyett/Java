@@ -23,8 +23,6 @@ public class ZooKeeperTest {
 		bat1.attackTown();
 		bat1.attackTown();
 		bat1.attackTown();
-		bat1.eatHumans();
-		bat1.eatHumans();
 		bat1.fly();
 		bat1.fly();
 		bat1.displayEnergy();
