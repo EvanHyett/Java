@@ -27,19 +27,19 @@ public class FormController {
 		Integer num = (Integer) session.getAttribute(null);
 		session.setAttribute("num", number);
 		
-		String cityName = (String) session.getAttribute(city);
+		
 		session.setAttribute("cityName", city);
 		
-		String personName = (String) session.getAttribute(person);
+		
 		session.setAttribute("personName", person);
 		
-		String hobbyName = (String) session.getAttribute(hobby);
+		
 		session.setAttribute("hobbyName", hobby);
 		
-		String livingThingName = (String) session.getAttribute(livingThing);
+		
 		session.setAttribute("livingThingName", livingThing);
 		
-		String descriptionName = (String) session.getAttribute(description);
+		
 		session.setAttribute("descriptionName", description);
 		
 		return "redirect:/dashboard";
